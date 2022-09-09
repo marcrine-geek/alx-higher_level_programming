@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """
 Displays all values in the states table
-Database hbtn_0e_0_usa
+Database `hbtn_0e_0_usa`.
 """
 
 import sys
@@ -9,7 +9,8 @@ import MySQLdb
 
 if __name__ == "__main__":
     """
-    Access to the database
+    Access to the database and get the states
+    from the database.
     """
     db = MySQLdb.connect(user=sys.argv[1], passwd=sys.argv[2], db=sys.argv[3])
     c = db.cursor()
