@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Prints the first State object from the database hbtn_0e_6_usa.
+Prints first State object from database hbtn_0e_6_usa.
 """
                                      
 import sys
@@ -15,7 +15,7 @@ if __name__ == "__main__":
     Session = sessionmaker(bind=engine)
     session = Session()
     state = session.query(State).order_by(State.id).first()
-    
+
     if state is None:
         print("Nothing")
     else:
