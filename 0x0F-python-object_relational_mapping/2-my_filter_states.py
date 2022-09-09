@@ -1,7 +1,9 @@
 #!/usr/bin/python3
 """
-Displays all values in the states table
-Database `hbtn_0e_0_usa`.
+Lists all states with a name starting with N from the database hbtn_0e_0_usa.
+Usage: ./1-filter_states.py <mysql username> \
+                            <mysql password> \
+                            <database name>
 """
 
 import sys
