@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 # Lists all cities of the database hbtn_0e_4_usa, ordered by city id.
-# Usage: user = mysql username
-# passwd = mysql password
-# db = mysql database
+# Usage: ./0-select_states.py <mysql username> \
+#                             <mysql password> \
+#                             <database name>
 import sys
 import MySQLdb
 

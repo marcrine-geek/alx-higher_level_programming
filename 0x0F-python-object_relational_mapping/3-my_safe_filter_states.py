@@ -2,9 +2,9 @@
 # Displays all values in the states table of the database hbtn_0e_0_usa
 # name that matches the given argument.
 # Safe from SQL injections.
-# Usage: user = mysql username
-# passwd = mysql password
-# db = mysql database
+# Usage: ./0-select_states.py <mysql username> \
+#                             <mysql password> \
+#                             <database name>
 import sys
 import MySQLdb
 
